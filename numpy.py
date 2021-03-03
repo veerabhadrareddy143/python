@@ -1,0 +1,16 @@
+import numpy as np
+from numpy import *
+u=np.array([1,2,3,4])
+v=np.array([1,2,3,5])
+z=np.array([1,2,3,7])
+a=np.array([u,v,z])
+print(a)
+print(a.shape)
+print(a.size)
+ZA=np.zeros((3,3))
+print(ZA)
+print(a[0,0])
+print(u.sum())
+print(a.cumsum())
+print(a.prod())
+print(a.cumprod())
